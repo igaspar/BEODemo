@@ -7,6 +7,7 @@ const bodyParser = require('body-parser');
 
 let publicHeroes = require('./heroes').publicHeroes;
 let consultaDatosCliente = require('./heroes').consultaDatosCliente;
+let consultaServiciosContratado = require('./heroes').consultaServiciosContratado;
 
 
 
@@ -29,7 +30,7 @@ app.post(`/consultaDatosCliente`, (req, res) => {
 
 // Post all public consultaServiciosContratados
 app.post(`/consultaServiciosContratado`, (req, res) => {
-  res.json(consultaDatosCliente);
+  res.json(consultaServiciosContratado);
 });
 
 
