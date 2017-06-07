@@ -23,7 +23,7 @@ app.use(cors());
 // ===== Public Routes =====
 
 // Get all public heroes
-app.get(`/consultaDatosCliente`, (req, res) => {
+app.post(`/consultaDatosCliente`, (req, res) => {
   res.json(consultaDatosCliente);
 });
 
