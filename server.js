@@ -11,7 +11,7 @@ let consultaDatosCliente = require('./heroes').consultaDatosCliente;
 
 
 
-const publicEndpoint = '/BEO';
+//const publicEndpoint = '/BEO';
 const secretEndpoint = '/api/secret';
 
 app.use(bodyParser.json());
@@ -23,7 +23,7 @@ app.use(cors());
 // ===== Public Routes =====
 
 // Get all public heroes
-app.post(`${publicEndpoint}/consultaDatosCliente`, (req, res) => {
+app.get(`/consultaDatosCliente`, (req, res) => {
   res.json(consultaDatosCliente);
 });
 
