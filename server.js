@@ -22,7 +22,11 @@ app.use(cors());
 
 // ===== Public Routes =====
 
+<<<<<<< HEAD
 // Post all public consultaDatosCliente
+=======
+// Get all public heroes
+>>>>>>> 817c002607a4a676c773b1a727d8ef5005bbbd4b
 app.post(`/consultaDatosCliente`, (req, res) => {
   res.json(consultaDatosCliente);
 });
