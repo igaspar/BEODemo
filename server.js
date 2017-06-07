@@ -11,7 +11,7 @@ let consultaDatosCliente = require('./heroes').consultaDatosCliente;
 
 
 
-//const publicEndpoint = '/BEO';
+const publicEndpoint = '/BEO';
 const secretEndpoint = '/api/secret';
 
 app.use(bodyParser.json());
