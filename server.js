@@ -29,9 +29,12 @@ app.post(`/consultaDatosCliente`, (req, res) => {
 
 
 // Post all public consultaServiciosContratados
-app.post(`/consultaServiciosContratado`, (req, res) => {
+app.post(`/consultaServiciosContratados`, (req, res) => {
   res.json(consultaServiciosContratado);
 });
+
+
+
 
 
 
