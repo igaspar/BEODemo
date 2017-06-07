@@ -13,6 +13,24 @@ const publicHeroes = [
   { 'id': 20, 'name': 'Tornado' }
 ];
 
+const consultaServiciosContratado = [
+{
+	"listaServicios": [{
+			"nombre": "MULTITESORERIA",
+			"contratado": true
+		},
+		{
+			"nombre": "PAGO DE NOMINA",
+			"contratado": true
+		}
+	],
+	"responseStatus": 200,
+	"responseError": ""
+}
+];
+
+
+
 
 const consultaDatosCliente = [
   {
@@ -57,5 +75,6 @@ const consultaDatosCliente = [
 
 module.exports = {
   publicHeroes,
-  consultaDatosCliente
+  consultaDatosCliente,
+  consultaServiciosContratado
 }

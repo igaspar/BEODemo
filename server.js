@@ -22,10 +22,21 @@ app.use(cors());
 
 // ===== Public Routes =====
 
-// Get all public heroes
-app.get(`/consultaDatosCliente`, (req, res) => {
+// Post all public consultaDatosCliente
+app.post(`/consultaDatosCliente`, (req, res) => {
   res.json(consultaDatosCliente);
 });
+
+
+// Post all public consultaServiciosContratados
+app.post(`/consultaServiciosContratado`, (req, res) => {
+  res.json(consultaDatosCliente);
+});
+
+
+
+
+
 
 // Get an individual public hero
 app.get(`${publicEndpoint}/heroes/:id`, (req, res) => {
