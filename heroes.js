@@ -12,6 +12,66 @@ const publicHeroes = [
   { 'id': 19, 'name': 'Magma' },
   { 'id': 20, 'name': 'Tornado' }
 ];
+const consultaCuentasAgregadasCliente = [
+	{
+	"listCuentasCliente": [{
+		"numeroDeCuenta": "",
+		"idProducto": "",
+		"descripcionProducto": "",
+		"divisa": "",
+		"saldo": 1532,
+		"idSucursal": 124,
+		"nombreSucursal": ""
+	}, {
+		"numeroDeCuenta": "",
+		"idProducto": "",
+		"descripcionProducto": "",
+		"divisa": "",
+		"saldo": 1532,
+		"idSucursal": 124,
+		"nombreSucursal": ""
+	}],
+              "listCreditosCliente": [{
+		"numeroDeCuenta": "",
+		"idProducto": "",
+		"descripcionProducto": "",
+		"divisa": "",
+		"saldo": 1532,
+		"idSucursal": 124,
+		"nombreSucursal": ""
+	}, {
+		"numeroDeCuenta": "",
+		"idProducto": "",
+		"descripcionProducto": "",
+		"divisa": "",
+		"saldo": 1532,
+		"idSucursal": 124,
+		"nombreSucursal": ""
+	}],
+    "listInversionesCliente": [{
+		"numeroDeCuenta": "",
+		"idProducto": "",
+		"descripcionProducto": "",
+		"divisa": "",
+		"saldo": 1532,
+		"idSucursal": 124,
+		"nombreSucursal": ""
+	}, {
+		"numeroDeCuenta": "",
+		"idProducto": "",
+		"descripcionProducto": "",
+		"divisa": "",
+		"saldo": 1532,
+		"idSucursal": 124,
+		"nombreSucursal": ""
+	}],
+	"responseStatus": "200",
+	"responseError": ""
+}
+	]  
+
+
+
 
 
 const consultaProductosContratados  = [
@@ -92,9 +152,15 @@ const consultaDatosCliente = [
 ];
 
 
+
+
 module.exports = {
   publicHeroes,
   consultaDatosCliente,
   consultaServiciosContratado,
   consultaProductosContratados,
+  consultaCuentasAgregadasCliente
+
+
+
 }

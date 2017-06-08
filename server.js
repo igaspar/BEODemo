@@ -8,7 +8,14 @@ const bodyParser = require('body-parser');
 let publicHeroes = require('./heroes').publicHeroes;
 let consultaDatosCliente = require('./heroes').consultaDatosCliente;
 let consultaServiciosContratados = require('./heroes').consultaServiciosContratado;
+let consultaCuentasAgregadasCliente = require('./heroes').consultaCuentasAgregadasCliente;
 let consultaProductosContratados = require('./heroes').consultaProductosContratados;
+
+
+
+
+
+
 
 
 const publicEndpoint = '/BEO';
@@ -32,10 +39,22 @@ app.post(`/consultaServiciosContratados`, (req, res) => {
   res.json(consultaServiciosContratados);
 });
 
+
+
+// Post all public consultaServiciosContratados
+app.post(`/consultaCuentasAgregadasCliente`, (req, res) => {
+  res.json(consultaCuentasAgregadasCliente);
+});
+
 // Post all public consultaServiciosContratados
 app.post(`/consultaProductosContratados`, (req, res) => {
-   res.json(consultaProductosContratados);
+  res.json(consultaProductosContratados);
 });
+
+
+
+
+
 
 
 
