@@ -10,11 +10,10 @@ let consultaDatosCliente = require('./heroes').consultaDatosCliente;
 let consultaServiciosContratados = require('./heroes').consultaServiciosContratado;
 let consultaCuentasAgregadasCliente = require('./heroes').consultaCuentasAgregadasCliente;
 let consultaProductosContratados = require('./heroes').consultaProductosContratados;
-
-
-
-
-
+let cambioContrasena = require('./heroes').cambioContrasena;
+let envioNotificaciones = require('./heroes').envioNotificaciones;
+let validacontrato =  require('./heroes').validacontrato;
+let Validaotp  =   require('./heroes').Validaotp;
 
 
 
@@ -49,6 +48,40 @@ app.post(`/consultaCuentasAgregadasCliente`, (req, res) => {
 // Post all public consultaServiciosContratados
 app.post(`/consultaProductosContratados`, (req, res) => {
   res.json(consultaProductosContratados);
+});
+
+
+
+// Post all public consultaServiciosContratados
+app.post(`/cambioContrasena`, (req, res) => {
+  res.json(cambioContrasena);
+});
+
+
+
+
+// Post all public consultaServiciosContratados
+app.post(`/envioNotificaciones`, (req, res) => {
+  res.json(envioNotificaciones);
+});
+
+
+// Post all public consultaServiciosContratados
+app.post(`/envioNotificaciones`, (req, res) => {
+  res.json(envioNotificaciones);
+});
+
+
+// Post all public consultaServiciosContratados
+app.post(`/validacontrato`, (req, res) => {
+  res.json(validacontrato);
+});
+
+
+
+// Post all public consultaServiciosContratados
+app.post(`/Validaotp`, (req, res) => {
+  res.json(Validaotp);
 });
 
 

@@ -12,6 +12,37 @@ const publicHeroes = [
   { 'id': 19, 'name': 'Magma' },
   { 'id': 20, 'name': 'Tornado' }
 ];
+
+
+const Validaotp  = [
+  {
+  "Antiphishing": 989999,
+  "CodigoRespuesta": 0,
+  "DescRespuesta": "Usuario correcto y token correcto"
+  }
+]
+
+const validacontrato  = [
+  {
+    "CodigoRespuesta": 1
+  }
+]
+
+const  envioNotificaciones  = [
+  {
+	"responseStatus": "200",
+	"responseError": ""
+  } 
+]
+
+
+const  cambioContrasena  = [
+  {
+    "CodigoRespuesta": "0"
+  }
+]
+
+
 const consultaCuentasAgregadasCliente = [
 	{
 	"listCuentasCliente": [{
@@ -159,8 +190,10 @@ module.exports = {
   consultaDatosCliente,
   consultaServiciosContratado,
   consultaProductosContratados,
-  consultaCuentasAgregadasCliente
-
-
+  consultaCuentasAgregadasCliente,
+  cambioContrasena,
+  envioNotificaciones,
+  validacontrato,
+  Validaotp
 
 }
