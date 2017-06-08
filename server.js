@@ -8,8 +8,7 @@ const bodyParser = require('body-parser');
 let publicHeroes = require('./heroes').publicHeroes;
 let consultaDatosCliente = require('./heroes').consultaDatosCliente;
 let consultaServiciosContratados = require('./heroes').consultaServiciosContratado;
-
-
+let consultaProductosContratados = require('./heroes').consultaProductosContratados;
 
 
 const publicEndpoint = '/BEO';
@@ -21,7 +20,7 @@ app.use(cors());
 
 
 
-// ===== Public Routes =====
+// ===== Public Routes ======
 // Post all public consultaDatosCliente
 app.post(`/consultaDatosBasicos`, (req, res) => {
   res.json(consultaDatosCliente);
@@ -32,6 +31,14 @@ app.post(`/consultaDatosBasicos`, (req, res) => {
 app.post(`/consultaServiciosContratados`, (req, res) => {
   res.json(consultaServiciosContratados);
 });
+
+// Post all public consultaServiciosContratados
+app.post(`/consultaProductosContratados`, (req, res) => {
+   res.json(consultaProductosContratados);
+});
+
+
+
 
 
 

@@ -13,6 +13,25 @@ const publicHeroes = [
   { 'id': 20, 'name': 'Tornado' }
 ];
 
+
+const consultaProductosContratados  = [
+{
+	"listaProductos": [{
+			"nombre": "CUENTA DE CHEQUES",
+			"idProducto": "CHQ"
+		},
+		{
+			"nombre": "TARJETA DE CREDITO",
+			"idProducto": "TDC"
+		}
+	],
+	"responseStatus": 200,
+	"responseError": ""
+}
+]; 
+
+
+
 const consultaServiciosContratado = [
 {
 	"listaServicios": [{
@@ -76,5 +95,6 @@ const consultaDatosCliente = [
 module.exports = {
   publicHeroes,
   consultaDatosCliente,
-  consultaServiciosContratado
+  consultaServiciosContratado,
+  consultaProductosContratados,
 }
