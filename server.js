@@ -32,13 +32,10 @@ app.post(`/consultaDatosBasicos`, (req, res) => {
   res.json(consultaDatosCliente);
 });
 
-
 // Post all public consultaServiciosContratados
 app.post(`/consultaServiciosContratados`, (req, res) => {
   res.json(consultaServiciosContratados);
 });
-
-
 
 // Post all public consultaServiciosContratados
 app.post(`/consultaCuentasAgregadasCliente`, (req, res) => {
@@ -50,34 +47,25 @@ app.post(`/consultaProductosContratados`, (req, res) => {
   res.json(consultaProductosContratados);
 });
 
-
-
 // Post all public consultaServiciosContratados
 app.post(`/cambioContrasena`, (req, res) => {
   res.json(cambioContrasena);
 });
 
-
-
-
 // Post all public consultaServiciosContratados
 app.post(`/envioNotificaciones`, (req, res) => {
   res.json(envioNotificaciones);
 });
 
-
 // Post all public consultaServiciosContratados
 app.post(`/envioNotificaciones`, (req, res) => {
   res.json(envioNotificaciones);
 });
-
 
 // Post all public consultaServiciosContratados
 app.post(`/validacontrato`, (req, res) => {
   res.json(validacontrato);
 });
-
-
 
 // Post all public consultaServiciosContratados
 app.post(`/Validaotp`, (req, res) => {
@@ -85,16 +73,55 @@ app.post(`/Validaotp`, (req, res) => {
 });
 
 
+//Los servicios de Middleware
 
 
 
+// ===== Public Routes ======
+// Post all public consultaDatosCliente
+app.post(`/v1/consultaDatosBasicos`, (req, res) => {
+  res.json(consultaDatosCliente);
+});
 
+// Post all public consultaServiciosContratados
+app.post(`/v1/consultaServiciosContratados`, (req, res) => {
+  res.json(consultaServiciosContratados);
+});
 
+// Post all public consultaServiciosContratados
+app.post(`/v1/consultaCuentasAgregadasCliente`, (req, res) => {
+  res.json(consultaCuentasAgregadasCliente);
+});
 
+// Post all public consultaServiciosContratados
+app.post(`/v1/consultaProductosContratados`, (req, res) => {
+  res.json(consultaProductosContratados);
+});
 
+// Post all public consultaServiciosContratados
+app.post(`/v1/cambioContrasena`, (req, res) => {
+  res.json(cambioContrasena);
+});
 
+// Post all public consultaServiciosContratados
+app.post(`/v1/envioNotificaciones`, (req, res) => {
+  res.json(envoNotificaciones);
+});
 
+// Post all public consultaServiciosContratados
+app.post(`/v1/envioNotificaciones`, (req, res) => {
+  res.json(envioNotificaciones);
+});
 
+// Post all public consultaServiciosContratados
+app.post(`/v1/validacontrato`, (req, res) => {
+  res.json(validacontrato);
+});
+
+// Post all public consultaServiciosContratados
+app.post(`/v1/Validaotp`, (req, res) => {
+  res.json(Validaotp);
+});
 
 
 
