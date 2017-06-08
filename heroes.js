@@ -14,36 +14,36 @@ const publicHeroes = [
 ];
 
 
-const Validaotp  = [
+const Validaotp  = 
   {
   "Antiphishing": 989999,
   "CodigoRespuesta": 0,
   "DescRespuesta": "Usuario correcto y token correcto"
   }
-]
 
-const validacontrato  = [
+
+const validacontrato  = 
   {
     "CodigoRespuesta": 1
   }
-]
 
-const  envioNotificaciones  = [
+
+const  envioNotificaciones  = 
   {
 	"responseStatus": "200",
 	"responseError": ""
   } 
-]
 
 
-const  cambioContrasena  = [
+
+const  cambioContrasena  = 
   {
     "CodigoRespuesta": "0"
   }
-]
 
 
-const consultaCuentasAgregadasCliente = [
+
+const consultaCuentasAgregadasCliente = 
 	{
 	"listCuentasCliente": [{
 		"numeroDeCuenta": "",
@@ -99,13 +99,13 @@ const consultaCuentasAgregadasCliente = [
 	"responseStatus": "200",
 	"responseError": ""
 }
-	]  
+	
 
 
 
 
 
-const consultaProductosContratados  = [
+const consultaProductosContratados  = 
 {
 	"listaProductos": [{
 			"nombre": "CUENTA DE CHEQUES",
@@ -119,11 +119,11 @@ const consultaProductosContratados  = [
 	"responseStatus": 200,
 	"responseError": ""
 }
-]; 
 
 
 
-const consultaServiciosContratado = [
+
+const consultaServiciosContratado = 
 {
 	"listaServicios": [{
 			"nombre": "MULTITESORERIA",
@@ -137,12 +137,12 @@ const consultaServiciosContratado = [
 	"responseStatus": 200,
 	"responseError": ""
 }
-];
 
 
 
 
-const consultaDatosCliente = [
+
+const consultaDatosCliente = 
   {
   'numCliente': '','nombre': '',
   "listaDirecciones": 
@@ -180,7 +180,7 @@ const consultaDatosCliente = [
   "responseStatus": 200,
   "responseError": ""
 }
-];
+
 
 
 
