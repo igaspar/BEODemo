@@ -143,42 +143,47 @@ const consultaServiciosContratado =
 
 
 const consultaDatosCliente = 
-  {
-  'numCliente': '','nombre': '',
-  "listaDirecciones": 
-  [
-    {
-      "direccion": "","poblacion": "",
-      "ciudad": "",
-      "estado": "",
-      "cp": "",
-      "tipoDireccion": ""
-    }
-  ],
-   "rfc": "",
-   "listaTelefonos": [{
-      "telefono": "",
-      "tipo": "telefono1"
-    },
-    {
-      "telefono": "",
-      "tipo": "telefono2"
-    },
-    {
-      "telefono": "",
-      "tipo": "celular"
-    }
-  ],
-  "listaEmails": [{
-    "mail": "",
-    "activo": true
-  }],
-  "tipoPersona": "",
-  "estatus": "",
-  "sucursal": "",
-  "vip": "",
-  "responseStatus": 200,
-  "responseError": ""
+ {
+	"numCliente": "",
+	"nombre": "",
+	"listaDirecciones": [{
+		"direccion": "",
+		"poblacion": "",
+		"ciudad": "",
+		"estado": "",
+		"cp": "",
+		"tipoDireccion": ""
+	}],
+	"rfc": "",
+	"listaTelefonos": [{
+			"cvePais": 52,
+			"codArea": 55,
+			"telefono": 123456789,
+			"tipo": "telefono1"
+		},
+		{
+			"cvePais": "",
+			"codArea": "",
+			"telefono": "",
+			"tipo": "telefono2"
+		},
+		{
+			"cvePais": "",
+			"codArea": "",
+			"telefono": "",
+			"tipo": "celular"
+		}
+	],
+	"listaEmails": [{
+		"mail": "",
+		"activo": true
+	}],
+	"tipoPersona": "",
+	"estatus": "",
+	"sucursal": "",
+	"vip": "",
+	"responseStatus": 200,
+	"responseError": ""
 }
 
 
