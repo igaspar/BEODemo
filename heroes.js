@@ -307,6 +307,7 @@ module.exports = {
   cambioContrasena,
   envioNotificaciones,
   validacontrato,
-  Validaotp
+  Validaotp,
+  login
 
 }
