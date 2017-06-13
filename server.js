@@ -58,10 +58,7 @@ app.post(`/envioNotificaciones`, (req, res) => {
   res.json(envioNotificaciones);
 });
 
-// Post all public consultaServiciosContratados
-app.post(`/envioNotificaciones`, (req, res) => {
-  res.json(envioNotificaciones);
-});
+
 
 // Post all public consultaServiciosContratados
 app.post(`/validacontrato`, (req, res) => {
@@ -106,13 +103,10 @@ app.post(`/v1/cambioContrasena`, (req, res) => {
 
 // Post all public consultaServiciosContratados
 app.post(`/v1/envioNotificaciones`, (req, res) => {
-  res.json(envoNotificaciones);
+  res.json(envioNotificaciones );
 });
 
-// Post all public consultaServiciosContratados
-app.post(`/v1/envioNotificaciones`, (req, res) => {
-  res.json(envioNotificaciones);
-});
+
 
 // Post all public consultaServiciosContratados
 app.post(`/v1/validacontrato`, (req, res) => {
