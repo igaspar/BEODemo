@@ -14,6 +14,7 @@ let cambioContrasena = require('./heroes').cambioContrasena;
 let envioNotificaciones = require('./heroes').envioNotificaciones;
 let validacontrato =  require('./heroes').validacontrato;
 let Validaotp  =   require('./heroes').Validaotp;
+let login  =   require('./heroes').login;
 
 
 
