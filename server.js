@@ -124,6 +124,14 @@ app.post(`/v1/Validaotp`, (req, res) => {
 });
 
 
+// Post all public consultaServiciosContratados
+app.post(`/v1/login`, (req, res) => {
+  res.json(login);
+});
+
+
+ 
+
 
 
 
