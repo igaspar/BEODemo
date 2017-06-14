@@ -411,5 +411,4 @@ module.exports = {
   autentificacion,
   consultaContrato,
   errorServicio
-
 }
