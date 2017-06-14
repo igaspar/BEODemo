@@ -14,6 +14,13 @@ let cambioContrasena = require('./heroes').cambioContrasena;
 let envioNotificaciones = require('./heroes').envioNotificaciones;
 let validacontrato =  require('./heroes').validacontrato;
 let Validaotp  =   require('./heroes').Validaotp;
+let login =  require('./heroes').login;
+let autentificacion = require('./heroes').autentificacion;
+let consultaContrato = require('./heroes').consultaContrato;
+let errorServicio = require('./heroes').errorServicio;
+
+
+
 
 
 
@@ -128,6 +135,24 @@ app.post(`/v1/Validaotp`, (req, res) => {
 app.post(`/v1/login`, (req, res) => {
   res.json(login);
 });
+
+
+
+// Post all public consultaServiciosContratados
+app.post(`/v1/autentificacion`, (req, res) => {
+  
+ 
+if(req.body.banderaAutentificacion=="")
+   res.json(consultaContrato );
+  
+else {
+	if(req.body.banderaAutentificacion=="1")
+      res.json(autentificacion);
+    else
+      res.json(errorServicio);
+}
+});
+
 
 
  

@@ -13,6 +13,114 @@ const publicHeroes = [
   { 'id': 20, 'name': 'Tornado' }
 ];
 
+const autentificacion  = {
+  "consultaDatosBasicos": [
+    {
+      "fecha-ultimo-acceso": "13062016",
+      "mail": "aaa@gmail.com",
+      "numCliente": "343243434",
+      "nombre": "Edwind Ramirez Perez",
+      "rfc": "dega880407hflnr08",
+      "listaTelefonos": [
+        {
+          "telefono": "04455517116",
+          "tipoTelefono": "celular"
+        },
+        {
+          "telefono": "04455517116",
+          "tipoTelefono": "casa"
+        },
+        {
+          "telefono": "04455517116",
+          "tipoTelefono": "oficina"
+        }
+        
+      ],
+      "listaEmails": [
+        {
+          "mail": "oficina@hotmail.com",
+          "activo": "1",
+          "tipoEmail": "oficina"
+        },
+        {
+          "mail": "oficina@hotmail.com",
+          "activo": "1",
+          "tipoEmail": "oficina"
+        },
+        {
+          "mail": "oficina@hotmail.com",
+          "activo": "1",
+          "tipoEmail": "oficina"
+        }
+      ],
+      "tipoPersona": "moral",
+      "estatus": "activo",
+      "sucursal": "06",
+      "vip": "01",
+    
+    }
+  ],
+  "consultaServiciosContratados": [
+    {
+      "listaServicios": [
+        {
+          "nombre": "Multitoseria",
+          "contratado": "1"
+        }
+      ]
+    }
+  ],
+  "consultaProductosContratados": [
+    {
+      "ListaProductos": [
+        {
+          "nombre": "Trasferencia de tarjetas",
+          "contratado": "1"
+        }
+      ]
+    }
+  ],
+  "consultaCuentasAgregadasCliente": [
+    {
+      "listCuentasCliente": [
+        {
+          "numeroDeCuenta": "string",
+          "idProducto": "string",
+          "descripcionProducto": "string",
+          "divisa": "string",
+          "saldo": "Big Decimal",
+          "idSucursal": "integer",
+          "nombreSucursal": "string"
+        }
+      ],
+      "listCreditosCliente": [
+        {
+          "numeroDeCuenta": "string",
+          "idProducto": "string",
+          "descripcionProducto": "string",
+          "divisa": "string",
+          "saldo": "Big Decimal",
+          "idSucursal": "integer",
+          "nombreSucursal": "string"
+        }
+      ],
+      "listInversionesCliente": [
+        {
+          "numeroDeCuenta": "string",
+          "idProducto": "string",
+          "descripcionProducto": "string",
+          "divisa": "string",
+          "saldo": "Big Decimal",
+          "idSucursal": "integer",
+          "nombreSucursal": "string"
+        }
+      ],
+      "responseStatus": "200",
+      "responseError": "respuesta"
+    }
+  ]
+}
+
 
 
 const login  = 
@@ -121,6 +229,13 @@ const login  =
 }
 
 
+const errorServicio  = 
+  {
+ 
+  "CodigoRespuesta": 234,
+  "DescRespuesta": "Error en validar el contrato"
+  }
+
 
 const Validaotp  = 
   {
@@ -129,12 +244,10 @@ const Validaotp  =
   "DescRespuesta": "Usuario correcto y token correcto"
   }
 
-
 const validacontrato  = 
   {
-    "CodigoRespuesta": 1
+    "CodigoRespuesta": 0
   }
-
 
 const  envioNotificaciones  = 
   {
@@ -142,14 +255,10 @@ const  envioNotificaciones  =
 	"responseError": ""
   } 
 
-
-
 const  cambioContrasena  = 
   {
     "CodigoRespuesta": "0"
   }
-
-
 
 const consultaCuentasAgregadasCliente = 
 	{
@@ -208,11 +317,6 @@ const consultaCuentasAgregadasCliente =
 	"responseError": ""
 }
 	
-
-
-
-
-
 const consultaProductosContratados  = 
 {
 	"listaProductos": [{
@@ -227,9 +331,6 @@ const consultaProductosContratados  =
 	"responseStatus": 200,
 	"responseError": ""
 }
-
-
-
 
 const consultaServiciosContratado = 
 {
@@ -246,8 +347,10 @@ const consultaServiciosContratado =
 	"responseError": ""
 }
 
-
-
+const consultaContrato  =
+{
+  "contratoAceptado":0 
+}
 
 
 const consultaDatosCliente = 
@@ -294,10 +397,6 @@ const consultaDatosCliente =
 	"responseError": ""
 }
 
-
-
-
-
 module.exports = {
   publicHeroes,
   consultaDatosCliente,
@@ -307,6 +406,10 @@ module.exports = {
   cambioContrasena,
   envioNotificaciones,
   validacontrato,
-  Validaotp
+  Validaotp,
+  login,
+  autentificacion,
+  consultaContrato,
+  errorServicio
 
 }
