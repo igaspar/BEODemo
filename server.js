@@ -90,7 +90,7 @@ app.post(`/v1/consultaServiciosContratados`, (req, res) => {
 });
 
 // Post all public consultaServiciosContratados
-app.post(`/v1/consultaCuentasAgregadasCliente`, (req, res) => {
+app.post(`/v1/consultaCuentas`, (req, res) => {
   res.json(consultaCuentasAgregadasCliente);
 });
 
