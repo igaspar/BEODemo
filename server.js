@@ -130,7 +130,7 @@ app.post(`/v1/login`, (req, res) => {
 
 
 // Post all public consultaServiciosContratados
-app.post(`/v1/autentificacion`, (req, res) => {
+app.post(`/v1/accesoCliente`, (req, res) => {
   
  
 if(req.body.banderaAutentificacion=="")
