@@ -13,21 +13,24 @@ const publicHeroes = [
   { 'id': 20, 'name': 'Tornado' }
 ];
 
+
+const consultaPerfiles = {
+	"facultadesSimples":["MVN_MNU_OPCION1, MVN_MNU_OPCION2,MVN_MNU_OPCION3"],
+	"responseStatus": 0,
+	"responseError": ""
+}
+
+
+
  const bloqueoOTP = {
 "codigoRespuesta": 21,
 "descRespuesta": "Token no existe"
 }
 
-
 const activacionOTP = {
 "codigoRespuesta": 0,
 "descRespuesta": "OK"
 }
-
-
-
-
-
 
 
 const listarTokensOTP = {
@@ -454,5 +457,6 @@ module.exports = {
   errorServicio,
   listarTokensOTP,
   activacionOTP,
-  bloqueoOTP
+  bloqueoOTP,
+  consultaPerfiles
 }
