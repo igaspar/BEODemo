@@ -13,6 +13,30 @@ const publicHeroes = [
   { 'id': 20, 'name': 'Tornado' }
 ];
 
+const listarTokensOTP = {
+"listTokens": [{
+"usuario": 1234567890,
+"tokenSerial": "7121804170B32HOSTVER",
+"nombreUsuario": "SAUL PEREZ SANCHEZ",
+"fechaAlta": "06-06-2017T08:20:13",
+"tokenStatus": "f"
+}, 
+{
+"usuario": 9876543210,
+"tokenSerial": "7121804170B32HOSTVER",
+"nombreUsuario": "RAUL PEREZ SANCHEZ",
+"fechaAlta": "06-06-2017T08:20:13",
+"tokenStatus": "t"
+}
+
+]
+
+,
+"responseStatus": 200,
+"responseError": ""
+}
+
+
 const autentificacion  = {
   "consultaDatosBasicos": [
     {
@@ -410,5 +434,6 @@ module.exports = {
   login,
   autentificacion,
   consultaContrato,
-  errorServicio
+  errorServicio,
+  listarTokensOTP
 }

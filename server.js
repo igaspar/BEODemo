@@ -20,6 +20,12 @@ let consultaContrato = require('./heroes').consultaContrato;
 let errorServicio = require('./heroes').errorServicio;
 
 
+let listarTokensOTP = require('./heroes').listarTokensOTP;
+
+
+
+
+
 
 const publicEndpoint = '/BEO';
 const secretEndpoint = '/api/secret';
@@ -72,6 +78,16 @@ app.post(`/validacontrato`, (req, res) => {
 app.post(`/Validaotp`, (req, res) => {
   res.json(Validaotp);
 });
+
+
+
+
+// Post all public consultaServiciosContratados
+app.post(`/listarTokensOTP`, (req, res) => {
+  res.json(listarTokensOTP);
+});
+
+
 
 
 //Los servicios de Middleware
