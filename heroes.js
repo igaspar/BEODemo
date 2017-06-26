@@ -13,6 +13,23 @@ const publicHeroes = [
   { 'id': 20, 'name': 'Tornado' }
 ];
 
+ const bloqueoOTP = {
+"codigoRespuesta": 21,
+"descRespuesta": "Token no existe"
+}
+
+
+const activacionOTP = {
+"codigoRespuesta": 0,
+"descRespuesta": "OK"
+}
+
+
+
+
+
+
+
 const listarTokensOTP = {
 "listTokens": [{
 "usuario": 1234567890,
@@ -435,5 +452,7 @@ module.exports = {
   autentificacion,
   consultaContrato,
   errorServicio,
-  listarTokensOTP
+  listarTokensOTP,
+  activacionOTP,
+  bloqueoOTP
 }

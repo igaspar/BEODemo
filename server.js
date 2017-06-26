@@ -22,6 +22,10 @@ let errorServicio = require('./heroes').errorServicio;
 
 let listarTokensOTP = require('./heroes').listarTokensOTP;
 
+let activacionOTP = require('./heroes').activacionOTP;
+
+
+let  bloqueoOTP = require('./heroes').bloqueoOTP;
 
 
 
@@ -86,6 +90,21 @@ app.post(`/Validaotp`, (req, res) => {
 app.post(`/listarTokensOTP`, (req, res) => {
   res.json(listarTokensOTP);
 });
+
+
+// Post all public consultaServiciosContratados
+app.post(`/activacionOTP`, (req, res) => {
+  res.json(activacionOTP);
+});
+
+
+
+// Post all public consultaServiciosContratados
+app.post(`/bloqueoOTP`, (req, res) => {
+  res.json(bloqueoOTP);
+});
+
+
 
 
 
