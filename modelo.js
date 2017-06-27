@@ -165,111 +165,36 @@ const autentificacion  = {
 
 
 
-const login  = 
- {
-  "consultaDatosBasicos": [
-    {
-      "fecha-ultimo-acceso": "date",
-      "mail": "string",
-      "numCliente": "Long",
-      "nombre": "String",
-      "listaDirecciones": [
-        {
-          "direccion": "String",
-          "poblacion": "String",
-          "ciudad": "String",
-          "estado": "String",
-          "cp": "String",
-          "tipoDireccion": "String"
-        }
-      ],
-      "rfc": "String",
-      "listaTelefonos": [
-        {
-          "telefono": "Integer",
-          "tipoTelefono": "String"
-        }
-      ],
-      "listaEmails": [
-        {
-          "mail": "String",
-          "activo": "Boolean",
-          "tipoEmail": "String"
-        }
-      ],
-      "tipoPersona": "String",
-      "estatus": "String",
-      "sucursal": "String",
-      "vip": "String",
-      "responseStatus": "String",
-      "responseError": "String"
-    }
-  ],
-  "consultaServiciosContratados": [
-    {
-      "listaServicios": [
-        {
-          "nombre": "String",
-          "contratado": "Boolean"
-        }
-      ],
-      "responseStatus": "String",
-      "responseError": "String"
-    }
-  ],
-  "consultaProductosContratados": [
-    {
-      "ListaProductos": [
-        {
-          "nombre": "String",
-          "contratado": "Boolean"
-        }
-      ],
-      "responseStatus": "String",
-      "responseError": "String"
-    }
-  ],
-  "consultaCuentasAgregadasCliente": [
-    {
-      "listCuentasCliente": [
-        {
-          "numeroDeCuenta": "string",
-          "idProducto": "string",
-          "descripcionProducto": "string",
-          "divisa": "string",
-          "saldo": "Big Decimal",
-          "idSucursal": "integer",
-          "nombreSucursal": "string"
-        }
-      ],
-      "listCreditosCliente": [
-        {
-          "numeroDeCuenta": "string",
-          "idProducto": "string",
-          "descripcionProducto": "string",
-          "divisa": "string",
-          "saldo": "Big Decimal",
-          "idSucursal": "integer",
-          "nombreSucursal": "string"
-        }
-      ],
-      "listInversionesCliente": [
-        {
-          "numeroDeCuenta": "string",
-          "idProducto": "string",
-          "descripcionProducto": "string",
-          "divisa": "string",
-          "saldo": "Big Decimal",
-          "idSucursal": "integer",
-          "nombreSucursal": "string"
-        }
-      ],
-      "responseStatus": "string",
-      "responseError": "string"
-    }
-  ]
+const login  =
+{
+    "nombreRazonSocial": "Empresa Mexicana de Autopartes A.S",
+    "medioAcceso": null,
+    "mail": null,
+    "responseError": "",
+    "consultaServiciosContratados": {
+        "responseError": "",
+        "listaServicios": [
+            {
+                "contratado": true,
+                "nombre": "MULTITESORERIA"
+            },
+            {
+                "contratado": true,
+                "nombre": "PAGO DE NOMINA"
+            }
+        ],
+        "responseStatus": 200
+    },
+    "nombreUsuario": null,
+    "listaTelefonos": {
+        "cvePais": 52,
+        "tipoTelefono": "celular",
+        "codArea": 55,
+        "telefono": "5529017222"
+    },
+    "responseStatus": 200,
+    "fechaUltimoAcceso": null
 }
-
 
 const errorServicio  = 
   {
