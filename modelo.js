@@ -47,120 +47,35 @@ const listarTokensOTP = {
 
 
 const autentificacion  = {
-  "consultaDatosBasicos": [
-    {
-      "fecha-ultimo-acceso": "13062016",
-      "mail": "aaa@gmail.com",
-      "numCliente": "343243434",
-      "nombre": "Edwind Ramirez Perez",
-      "rfc": "dega880407hflnr08",
-      "listaTelefonos": [
-        {
-          
-          "cvePais": 52,		 
- 	  		  "codArea": 55,
-          "telefono": "04455517116",
-          "tipoTelefono": "celular"
-          
-          
-        },
-        {
-          "cvePais": 52,		 
- 	  		  "codArea": 55,
-          "telefono": "04455517116",
-          "tipoTelefono": "casa"
-        },
-        {
-          "cvePais": 52,		 
- 	  		  "codArea": 55,
-          "telefono": "04455517116",
-          "tipoTelefono": "oficina"
-        }
-        
-      ],
-      "listaEmails": [
-        {
-          "mail": "oficina@hotmail.com",
-          "activo": "1",
-          "tipoEmail": "oficina"
-        },
-        {
-          "mail": "oficina@hotmail.com",
-          "activo": "1",
-          "tipoEmail": "oficina"
-        },
-        {
-          "mail": "oficina@hotmail.com",
-          "activo": "1",
-          "tipoEmail": "oficina"
-        }
-      ],
-      "tipoPersona": "moral",
-      "estatus": "activo",
-      "sucursal": "06",
-      "vip": "01",
+    "fechaUltimoAcceso": 20170612120212,
+    "nombreRazonSocial": "Empresa Mexicana de Autopartes A.S",
+    "medioAcceso": "telefono",
+    "mail": "edwind@multiva.com",
     
-    }
-  ],
-  "consultaServiciosContratados": [
-    {
-      "listaServicios": [
-        {
-          "nombre": "Multitoseria",
-          "contratado": "1"
-        }
-      ]
-    }
-  ],
-  "consultaProductosContratados": [
-    {
-      "ListaProductos": [
-        {
-          "nombre": "Trasferencia de tarjetas",
-          "contratado": "1"
-        }
-      ]
-    }
-  ],
-  "consultaCuentasAgregadasCliente": [
-    {
-      "listCuentasCliente": [
-        {
-          "numeroDeCuenta": "string",
-          "idProducto": "string",
-          "descripcionProducto": "string",
-          "divisa": "string",
-          "saldo": "Big Decimal",
-          "idSucursal": "integer",
-          "nombreSucursal": "string"
-        }
-      ],
-      "listCreditosCliente": [
-        {
-          "numeroDeCuenta": "string",
-          "idProducto": "string",
-          "descripcionProducto": "string",
-          "divisa": "string",
-          "saldo": "Big Decimal",
-          "idSucursal": "integer",
-          "nombreSucursal": "string"
-        }
-      ],
-      "listInversionesCliente": [
-        {
-          "numeroDeCuenta": "string",
-          "idProducto": "string",
-          "descripcionProducto": "string",
-          "divisa": "string",
-          "saldo": "Big Decimal",
-          "idSucursal": "integer",
-          "nombreSucursal": "string"
-        }
-      ],
-      "responseStatus": "200",
-      "responseError": "respuesta"
-    }
-  ]
+    "consultaServiciosContratados": {
+        
+        "listaServicios": [
+            {
+                "contratado": true,
+                "nombre": "MULTITESORERIA"
+            },
+            {
+                "contratado": true,
+                "nombre": "PAGO DE NOMINA"
+            }
+        ],
+      
+    },
+    "nombreUsuario": "edwind ramirez perez",
+    "listaTelefonos": {
+        "cvePais": 52,
+        "tipoTelefono": "celular",
+        "codArea": 55,
+        "telefono": "5529017222"
+    },
+    "responseStatus": 200,
+    "responseError": "",
+   
 }
 
 
