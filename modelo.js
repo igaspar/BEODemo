@@ -413,12 +413,19 @@ const consultaDatosCliente =
 	}],
 	"rfc": "DEGA880407HFLNR01",
 	"listaTelefonos": [{
+      "cvePais": 52,		 
+ 	  	"codArea": 55,
 			"telefono": "5529017222",
 			"tipoTelefono": "celular"
+     
 		},{
+       "cvePais": 52,		 
+ 	  	"codArea": 55,
 			"telefono": "5529017223",
 			"tipoTelefono": "celular"
 		},{
+       "cvePais": 52,		 
+ 	  	"codArea": 55,
 			"telefono": "5529017224",
 			"tipoTelefono": "celular"
 		},
