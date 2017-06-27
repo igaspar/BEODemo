@@ -234,9 +234,10 @@ const consultaServiciosContratado =
 }
 
 const consultaContrato  ={
-    "mostrarContrato": true,
-    "respuestaError": "0",
-    "respuestaStatus": "200"
+     "muestraContrato": true,
+      "responseStatus": 200,
+      "responseError": ""
+   
 }
 
 
