@@ -1,17 +1,6 @@
 'use strict';
 
-const publicHeroes = [
-  { 'id': 11, 'name': 'Mr. Nice' },
-  { 'id': 12, 'name': 'Narco' },
-  { 'id': 13, 'name': 'Bombasto' },
-  { 'id': 14, 'name': 'Celeritas' },
-  { 'id': 15, 'name': 'Magneta' },
-  { 'id': 16, 'name': 'RubberMan' },
-  { 'id': 17, 'name': 'Dynama' },
-  { 'id': 18, 'name': 'Dr IQ' },
-  { 'id': 19, 'name': 'Magma' },
-  { 'id': 20, 'name': 'Tornado' }
-];
+
 
 
 const consultaPerfiles = {
@@ -399,50 +388,42 @@ const consultaContrato  =
 
 const consultaDatosCliente = 
  {
-	"numCliente": "",
-	"nombre": "",
+	"numCliente": "123454354545",
+	"nombre": "Edwind Ramirez Perez",
 	"listaDirecciones": [{
-		"direccion": "",
-		"poblacion": "",
-		"ciudad": "",
-		"estado": "",
-		"cp": "",
-		"tipoDireccion": ""
+		"direccion": "Naucalpan #12 colonia maravillas",
+		"poblacion": "Estado de Mexico",
+		"ciudad": "Mexico",
+		"estado": "Estado de Mexico",
+		"cp": "15420",
+		"tipoDireccion": "1"
 	}],
-	"rfc": "",
+	"rfc": "DEGA880407HFLNR01",
 	"listaTelefonos": [{
-			"cvePais": 52,
-			"codArea": 55,
-			"telefono": 123456789,
-			"tipo": "telefono1"
-		},
-		{
-			"cvePais": "",
-			"codArea": "",
-			"telefono": "",
-			"tipo": "telefono2"
-		},
-		{
-			"cvePais": "",
-			"codArea": "",
-			"telefono": "",
+			"telefono": "5529017222",
 			"tipo": "celular"
-		}
+		},{
+			"telefono": "5529017223",
+			"tipo": "celular"
+		},{
+			"telefono": "5529017224",
+			"tipo": "celular"
+		},
+	
 	],
 	"listaEmails": [{
-		"mail": "",
+		"mail": "edwin@multiva.com",
 		"activo": true
 	}],
-	"tipoPersona": "",
-	"estatus": "",
-	"sucursal": "",
-	"vip": "",
+	"tipoPersona": "moral",
+	"estatus": "a",
+	"sucursal": "313",
+	"vip": "1",
 	"responseStatus": 200,
 	"responseError": ""
 }
 
 module.exports = {
-  publicHeroes,
   consultaDatosCliente,
   consultaServiciosContratado,
   consultaProductosContratados,
