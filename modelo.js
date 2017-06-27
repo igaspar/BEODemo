@@ -417,7 +417,8 @@ const consultaDatosCliente =
 	],
 	"listaEmails": [{
 		"mail": "edwin@multiva.com",
-		"activo": true
+		"activo": true,
+    "tipoEmail" : "empresa"
 	}],
 	"tipoPersona": "moral",
 	"estatus": "a",
