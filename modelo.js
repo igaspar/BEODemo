@@ -56,16 +56,23 @@ const autentificacion  = {
       "rfc": "dega880407hflnr08",
       "listaTelefonos": [
         {
+          
+          "cvePais": 52,		 
+ 	  		  "codArea": 55,
           "telefono": "04455517116",
           "tipoTelefono": "celular"
-
+          
           
         },
         {
+          "cvePais": 52,		 
+ 	  		  "codArea": 55,
           "telefono": "04455517116",
           "tipoTelefono": "casa"
         },
         {
+          "cvePais": 52,		 
+ 	  		  "codArea": 55,
           "telefono": "04455517116",
           "tipoTelefono": "oficina"
         }
