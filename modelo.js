@@ -233,9 +233,10 @@ const consultaServiciosContratado =
 	"responseError": ""
 }
 
-const consultaContrato  =
-{
-  "contratoAceptado":0 
+const consultaContrato  ={
+    "mostrarContrato": true,
+    "respuestaError": "0",
+    "respuestaStatus": "200"
 }
 
 
