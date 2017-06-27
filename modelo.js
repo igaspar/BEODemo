@@ -401,13 +401,13 @@ const consultaDatosCliente =
 	"rfc": "DEGA880407HFLNR01",
 	"listaTelefonos": [{
 			"telefono": "5529017222",
-			"tipo": "celular"
+			"tipoTelefono": "celular"
 		},{
 			"telefono": "5529017223",
-			"tipo": "celular"
+			"tipoTelefono": "celular"
 		},{
 			"telefono": "5529017224",
-			"tipo": "celular"
+			"tipoTelefono": "celular"
 		},
 	
 	],
