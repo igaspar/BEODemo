@@ -389,7 +389,7 @@ const consultaContrato  =
 const consultaDatosCliente = 
  {
 	"numCliente": "123454354545",
-	"nombre": "Edwind Ramirez Perez",
+	"nombre": "Empresa Mexicana de Autopartes A.S",
 	"listaDirecciones": [{
 		"direccion": "Naucalpan #12 colonia maravillas",
 		"poblacion": "Estado de Mexico",
