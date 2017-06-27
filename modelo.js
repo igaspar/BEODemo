@@ -4,7 +4,7 @@
 
 
 const consultaPerfiles = {
-	"facultadesSimples":["MVN_MNU_OPCION1, MVN_MNU_OPCION2,MVN_MNU_OPCION3"],
+	"facultadesSimples":["MVN_MNU_OPCION1", "MVN_MNU_OPCION2","MVN_MNU_OPCION3"],
 	"responseStatus": 0,
 	"responseError": ""
 }
@@ -58,6 +58,8 @@ const autentificacion  = {
         {
           "telefono": "04455517116",
           "tipoTelefono": "celular"
+
+          
         },
         {
           "telefono": "04455517116",
