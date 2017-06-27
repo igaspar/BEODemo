@@ -22,6 +22,9 @@ let listarTokensOTP = require('./modelo').listarTokensOTP;
 let activacionOTP = require('./modelo').activacionOTP;
 let  bloqueoOTP = require('./modelo').bloqueoOTP;
 let consultaPerfiles = require('./modelo').consultaPerfiles;
+let consultaContratoerror= require('./modelo').consultaContratoerror;
+
+
 
 
 

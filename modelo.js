@@ -309,5 +309,6 @@ module.exports = {
   listarTokensOTP,
   activacionOTP,
   bloqueoOTP,
+  consultaContratoerror,
   consultaPerfiles
 }
