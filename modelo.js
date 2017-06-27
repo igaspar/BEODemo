@@ -240,6 +240,13 @@ const consultaContrato  ={
    
 }
 
+const consultaContratoerror  ={
+     "muestraContrato": true,
+      "responseStatus": 200,
+      "responseError": ""
+   
+}
+
 
 const consultaDatosCliente = 
  {

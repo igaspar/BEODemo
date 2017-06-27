@@ -168,7 +168,7 @@ app.post(`/v1/accesoCliente`, (req, res) => {
   
  
 if(req.body.banderaAcceso=="")
-   res.json(consultaContrato);
+   res.json(consultaContratoerror);
   
 else {
 	if(req.body.banderaAcceso=="1")
