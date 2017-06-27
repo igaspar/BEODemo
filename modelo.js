@@ -288,10 +288,14 @@ const  envioNotificaciones  =
 	"responseError": ""
   } 
 
-const  cambioContrasena  = 
-  {
-    "CodigoRespuesta": "0"
-  }
+const  cambioContrasena  = {
+	"listCambioContrasena": {
+		"codigo": 0,
+		"mensaje": ""
+	},
+	"responseStatus": "200",
+	"responseError": ""
+}
 
 const consultaCuentasAgregadasCliente = 
 	{
