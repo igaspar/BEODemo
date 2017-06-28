@@ -1,9 +1,9 @@
 'use strict';
 
-var express = require('express');
-var app = express();
-var cors = require('cors');
-var bodyParser = require('body-parser');
+const express = require('express');
+const app = express();
+const cors = require('cors');
+const bodyParser = require('body-parser');
 
 let publicHeroes = require('./modelo').publicHeroes;
 let consultaDatosCliente = require('./modelo').consultaDatosCliente;
@@ -181,5 +181,5 @@ else {
 }
 });
 
-app.listen(8080);
-console.log('Listening on localhost:8080');
+app.listen(3001);
+console.log('Listening on localhost:3001');
