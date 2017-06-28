@@ -1,5 +1,5 @@
 {
-  "name": "Servicios demos multiva middelware",
+  "name": "servicios-demos-multiva-middelware",
   "version": "0.0.1",
   "description": "Express server for TOH app",
   "main": "server.js",
